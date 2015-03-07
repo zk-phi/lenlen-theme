@@ -1,0 +1,15 @@
+* lenlen-theme.el
+
+a solarized-based kawaii light theme
+
+- lisp
+
+[[img/lisp.png]]
+
+- C
+
+[[img/c.png]]
+
+** Dependencies
+
+- [[https://github.com/sellout/emacs-color-theme-solarized][color-theme-solarized]]
