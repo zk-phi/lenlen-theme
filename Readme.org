@@ -8,7 +8,7 @@ a solarized-based kawaii light theme
 
 - C
 
-[[img/c.png]]
+[[img/C.png]]
 
 ** Dependencies
 
