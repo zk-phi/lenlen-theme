@@ -10,6 +10,10 @@ a solarized-based kawaii light theme
 
 [[img/C.png]]
 
+** Supported Plug-ins
+
+All plug-ins that `color-theme-solarized` supports.
+
 ** Dependencies
 
 - [[https://github.com/sellout/emacs-color-theme-solarized][color-theme-solarized]]
