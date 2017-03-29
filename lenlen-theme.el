@@ -37,7 +37,7 @@
 (defconst lenlen-theme-version "1.0.0")
 
 (create-solarized-theme
- lenlen-theme "a solarized-based kawaii light theme"
+ lenlen "a solarized-based kawaii light theme"
  (let ((solarized-colors
         '((base03  "#281e03") (base02  "#2f250a") (base01  "#736c59") (base00  "#7d7665")
           (base0   "#979182") (base1   "#a49f91") (base2   "#f8f6f1") (base3   "#fffdf9")
@@ -45,8 +45,15 @@
           (violet  "#51981b") (blue    "#fda700") (cyan    "#34bd7d") (green   "#59a9d2"))))
    (solarized-color-definitions)))
 
-(custom-theme-set-variables 'lenlen-theme '(frame-background-mode 'light))
+(custom-theme-set-variables 'lenlen '(frame-background-mode 'light))
 
-(provide 'lenlen-theme)
+;;;###autoload
+(and load-file-name
+     (boundp 'custom-theme-load-path)
+     (add-to-list 'custom-theme-load-path
+                  (file-name-as-directory
+                   (file-name-directory load-file-name))))
+
+(provide 'lenlen)
 
 ;;; lenlen-theme.el ends here
