@@ -39,8 +39,8 @@
 (create-solarized-theme
  lenlen-theme "a solarized-based kawaii light theme"
  (let ((solarized-colors
-        '((base03  "#291e03") (base02  "#2f240a") (base01  "#736c59") (base00  "#7e7765")
-          (base0   "#989182") (base1   "#a59f91") (base2   "#f8f6f1") (base3   "#fffdf9")
+        '((base03  "#281e03") (base02  "#2f250a") (base01  "#736c59") (base00  "#7d7665")
+          (base0   "#979182") (base1   "#a49f91") (base2   "#f8f6f1") (base3   "#fffdf9")
           (yellow  "#db8d2e") (orange  "#f77e96") (red     "#f47166") (magenta "#b04d99")
           (violet  "#51981b") (blue    "#fda700") (cyan    "#34bd7d") (green   "#59a9d2"))))
    (solarized-color-definitions)))
